@@ -1,1 +1,7 @@
-branch: master
+remotes:
+- name: test-remote-foo
+  alias: fool
+  fetch: https://github.com/piccobit/gorepo-test-foo
+- name: test-remote-bar
+  alias: bar
+  fetch: https://github.com/piccobit/gorepo-test-bar
