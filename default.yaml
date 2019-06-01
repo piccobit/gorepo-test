@@ -1,6 +1,6 @@
 remotes:
 - name: test-remote-foo
-  alias: fool
+  alias: foo
   fetch: https://github.com/piccobit/gorepo-test-foo
 - name: test-remote-bar
   alias: bar
