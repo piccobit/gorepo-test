@@ -1,7 +1,16 @@
-remotes:
-- name: test-remote-foo
-  alias: origin
-  fetch: https://github.com/piccobit/gorepo-test-foo
-- name: test-remote-bar
-  alias: origin
-  fetch: https://github.com/piccobit/gorepo-test-bar
+manifest:
+  remotes:
+  - name: test-remote-foo
+    alias: origin
+    fetch: https://github.com/piccobit/gorepo-test-foo
+  - name: test-remote-bar
+    alias: origin
+    fetch: https://github.com/piccobit/gorepo-test-bar
+
+  projects:
+  - name: foo
+    path: foo
+    remote: test-remote-foo
+  - name: bar
+    path: bar
+    remote: test-remote-bar
